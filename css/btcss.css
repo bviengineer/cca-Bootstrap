@@ -1,0 +1,18 @@
+/**********************************
+    H1 & FOOTER
+***********************************/
+h1, footer {
+    text-align: center;
+}
+
+li {
+    
+}
+
+.first-col {
+    background-color: antiquewhite;
+}
+
+.second-col {
+    background-color: azure;
+}

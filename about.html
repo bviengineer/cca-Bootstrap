@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap Practice</title>
+
+        <!--Bootstrap v3.3.7 download -->
+            <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+        <!--Bootstrap link from CDN-->
+            <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> -->
+        
+        <link rel="stylesheet" href="css/btcss.css">        
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed"
+                            data-toggle="collapse" data-target="#main-nav" 
+                            aria-expanded="false">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/">Logo</a>
+                    </div> <!--closing div for navbar-headerdiv-->
+                    <div class="collapse navbar-collapse" id="main-nav">
+                        <ul class="nav navbar-nav">
+                            <li><a href="/index.html">Home</a></li>
+                            <li class="active"><a href="/">About</a></li>
+                    </ul> <!--closing tag for navbar-nav-->
+                </div> <!--closing div for navbar-collapse/main-nav-->                    
+                </div> <!--closing div for container-fluid-->                
+            </nav> 
+        <div class="container">
+            <h1>Bootstrap Demonstration</h1>
+            <main class="col-md-8 bg-primary">
+                <article>
+                    <h2>Article 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis ex enim, ac euismod arcu pretium nec. Vivamus eu diam vel elit aliquam suscipit. Phasellus sed hendrerit sapien. Maecenas erat sapien, auctor pretiume purus at, iaculis dictum neque. Donec varius mauris justo, nec elementum ante convallis quis. Cras suscipit pellentesque turpis a porta. Mauris a tincidunt enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras feugiat efficitur pretium. In metus risus, facilisis ut erat ullamcorper, scelerisque malesuada enim. Mauris finibus neque sed ornare venenatis. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                            
+                    <p>Nullam est felis, laoreet vitae suscipit sed, porta sit amet erat. Morbi in laoreet elit. Aliquam bibendum egestas libero. Nam sed magna consectetur enim blandit mollis. In vestibulum iaculis sapien, nec consequat turpis cursus nec. Nunc et diam nulla. Nunc accumsan ultricies nulla, ut luctus enim mollis vel. Nunc posuere mi est, vel condimentum turpis faucibus ut. Donec quam eros, feugiat pharetra accumsan a, varius eu lectus. Praesent gravida orci dui, ac viverra sapien tristique id.</p>
+                </article>
+                <article>
+                    <h2>Article 2</h2>
+                    <p>Suspendisse potenti. Maecenas in nisl vitae augue tempus aliquet sed quis mauris. Etiam vel odio sollicitudin, congue ante in, scelerisque sapien. Pellentesque sit amet mi quis dui dignissim posuere vitae ac nunc. Nunc molestie leo vitae convallis laoreet. Maecenas scelerisque congue metus, eu pulvinar mi lacinia imperdiet. Proin at molestie ligula, vitae pharetra nisl. Nunc elementum tempus sem, sit amet consequat nisi sodales at. Donec eu vestibulum est. Suspendisse viverra, enim vel faucibus laoreet, quam dui tristique diam, vitae tristique nisi eros eget neque.</p>
+                </article>
+            </main>
+            <aside class="col-md-4 bg-success">
+                <section>
+                    <h2>Aside Article</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus imperdiet felis, in facilisis enim bibendum non. Phasellus tempor ante sapien, at scelerisque augue iaculis ut. Aenean pellentesque nisl nisi, sit amet viverra velit posuere eget. Aliquam quis pretium elit. Ut vestibulum lorem eget suscipit pretium. Nam nec vulputate lacus. Donec consequat, nunc eget blandit auctor, lacus felis ultrices nisi, luctus consequat nisi tellus pretium orci. Curabitur eget magna eu eros molestie vehicula nec eu tellus. Duis malesuada leo eget neque consequat, eget finibus nunc dictum. Phasellus lorem mi, finibus quis ultricies ac, placerat eu augue. Quisque auctor elit et.</p>
+                </section>
+            </aside>
+        </div>
+        <footer class="container-fluid">&copy 2017 BviDev</footer>
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

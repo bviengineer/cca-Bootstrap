@@ -1,0 +1,81 @@
+`<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap Practice</title>
+
+        <!--Bootstrap v3.3.7 download -->
+            <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+        <!--Bootstrap link from CDN-->
+            <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> -->
+        
+        <link rel="stylesheet" href="css/btcss.css">        
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed"
+                            data-toggle="collapse" data-target="#main-nav" 
+                            aria-expanded="false">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/">Logo</a>
+                    </div> <!--closing div for navbar-headerdiv-->
+                    <div class="collapse navbar-collapse" id="main-nav">
+                        <ul class="nav navbar-nav">
+                            <li class="actve"><a href="/">Home</a></li>
+                            <li><a href="/about.html">About</a></li>
+                    </ul> <!--closing tag for navbar-nav-->
+                </div> <!--closing div for navbar-collapse/main-nav-->                    
+                </div> <!--closing div for container-fluid-->                
+            </nav> 
+        <div class="container-fluid">
+                <h1>Bootstrap Demonstration</h1>
+                <div class="row">                
+                    <div class="first-col col-xs-10 col-sm-9 col-md-8">
+                        <h2>First Column</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget luctus risus. Cras egestas, velit vel feugiat placerat, mauris turpis eleifend nulla, sed rhoncus lorem mi pellentesque tellus. Etiam bibendum ornare leo nec porttitor. Curabitur et eros eros. Nunc fringilla semper nulla, ut ultricies neque tincidunt vitae. Mauris cursus magna arcu, a eleifend sem molestie id. Donec vitae tincidunt purus.</p>
+                    </div> <!--closing div for 1st column of 1st row -->
+                    <div class="second-col col-xs-2 col-sm-3 col-md-4">
+                        <h3>First Column Aside Item</h3>
+                        <p>This is my 1st aside selection.</p>
+                    </div> <!--closing div for 2nd column of 1st row -->
+                </div> <!--closing div for 1st row-->                    
+                
+                <div class="row">    
+                    <div class="first-col col-xs-10 col-sm-9 col-md-8"> 
+                        <h2>Second Column</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget luctus risus. Cras egestas, velit vel feugiat placerat, mauris turpis eleifend nulla, sed rhoncus lorem mi pellentesque tellus. Etiam bibendum ornare leo nec porttitor. Curabitur et eros eros. Nunc fringilla semper nulla, ut ultricies neque tincidunt vitae. Mauris cursus magna arcu, a eleifend sem molestie id. Donec vitae tincidunt purus./p>
+                    </div> <!--closing div for 1st column of 2nd row -->
+                    <div class="second-col col-xs-2 col-sm-3 col-md-4"> 
+                        <h3>Second Column Aside Item</h3>
+                        <p>This is my second aside selection.</p>
+                    </div> <!--closing div for 2nd column of 2nd row -->
+                </div> <!--closing div for 2nd row -->
+                
+                <div class="row">
+                    <div class="first-col col-xs-10 col-sm-9 col-md-8"> 
+                        <h2>Third Column</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget luctus risus. Cras egestas, velit vel feugiat placerat, mauris turpis eleifend nulla, sed rhoncus lorem mi pellentesque tellus. Etiam bibendum ornare leo nec porttitor. Curabitur et eros eros. Nunc fringilla semper nulla, ut ultricies neque tincidunt vitae. Mauris cursus magna arcu, a eleifend sem molestie id. Donec vitae tincidunt purus.</p>
+                    </div> <!--closing div for 3rd column of 3rd row -->
+                    <div class="second-col col-xs-2 col-sm-3 col-md-4"> 
+                        <h3>Third Column Aside Item</h3>
+                        <p>Third Column Aside Selection</p>
+                    </div> <!--closing div for 2nd column of 3rd row -->                    
+                </div> <!--closing div for 3rd row --> 
+        </main>
+        <footer class="container-fluid">&copy 2017 BviDev</footer>
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js">script tag here</script>
+    </body>
+</html>
